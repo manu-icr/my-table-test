@@ -70,6 +70,7 @@ function useRounds(initialCount) {
     (round, index) =>
       hidden.includes(index) ? null : (
         <Round
+          useNumber={null}
           key={index}
           hideRound={() => {
             setHidden([...hidden, index]);

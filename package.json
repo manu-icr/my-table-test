@@ -5,13 +5,12 @@
   "homepage": "https://epfl-exts.github.io/table-tests/",
   "dependencies": {
     "@tensorflow/tfjs": "^0.14.1",
-    "enzyme": "^3.8.0",
-    "enzyme-adapter-react-16": "^1.7.1",
-    "path2d-polyfill": "^0.4.1",
-    "react": "^16.7.0-alpha.2",
-    "react-dom": "^16.7.0-alpha.2",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
     "react-scripts": "^3.0.1",
-    "react-test-renderer": "^16.7.0-alpha.2",
+    "react-test-renderer": "^16.9.0-rc.0",
     "use-events": "^1.1.7"
   },
   "scripts": {

@@ -4,8 +4,9 @@ import Controls from "./Controls.js";
 
 const RoundContext = React.createContext({});
 
-function Round({ hideRound }) {
-  const question = useRandomNumbers();
+function Round({ hideRound, useNumber }) {
+  let question = useRandomNumbers();
+  question = useNumber || question;
   let ref = React.createRef();
 
   return (
