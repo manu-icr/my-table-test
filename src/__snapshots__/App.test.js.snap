@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Round /> renders correctly 1`] = `
+<div
+  className="flex-wrapper"
+>
+  <div
+    className="question"
+  >
+    <span>
+      4
+    </span>
+    <h3>
+      x
+    </h3>
+    <span>
+      5
+    </span>
+    <h3>
+      =
+    </h3>
+  </div>
+  <div
+    className="canvas-wrapper"
+  >
+    <canvas
+      height={500}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseUp={[Function]}
+      width={500}
+    />
+  </div>
+  <div
+    className="controls"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Clear
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      Predict
+    </button>
+  </div>
+</div>
+`;
